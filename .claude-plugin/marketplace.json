@@ -1,0 +1,24 @@
+{
+  "name": "cc-company",
+  "owner": {
+    "name": "Shin-sibainu"
+  },
+  "metadata": {
+    "description": "Claude Codeで仮想会社組織を構築するプラグイン"
+  },
+  "plugins": [
+    {
+      "name": "company",
+      "source": "./plugins/company",
+      "description": "対話的オンボーディングで仮想会社組織を構築。秘書が窓口となり、CEOが各部署へ指示を振り分ける。",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shin-sibainu"
+      },
+      "repository": "https://github.com/Shin-sibainu/cc-company",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["company", "organization", "secretary", "productivity", "management"]
+    }
+  ]
+}
