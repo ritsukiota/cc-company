@@ -5,6 +5,9 @@ hero:
   name: cc-company
   text: Claude Code で仮想組織を運営
   tagline: 秘書から始めて、必要に応じて部署を追加。シンプルに始めて、自然に育てる。
+  image:
+    src: /hero-image.png
+    alt: cc-company ロゴ
   actions:
     - theme: brand
       text: クイックスタート

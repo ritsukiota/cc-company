@@ -6,6 +6,9 @@
 cc-company/
 ├── .claude-plugin/
 │   └── marketplace.json        ← マーケットプレース登録情報
+├── .github/
+│   └── workflows/
+│       └── deploy-docs.yml     ← ドキュメント自動デプロイ
 ├── plugins/
 │   └── company/
 │       ├── .claude-plugin/
@@ -16,7 +19,8 @@ cc-company/
 │               └── references/
 │                   ├── departments.md         ← 部署テンプレート集
 │                   └── claude-md-template.md  ← CLAUDE.md 生成テンプレート
-├── docs/                       ← このドキュメント
+├── docs/                       ← ドキュメントサイト（VitePress）
+├── package.json
 ├── README.md
 └── LICENSE
 ```

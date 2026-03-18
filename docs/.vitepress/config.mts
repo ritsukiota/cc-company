@@ -17,6 +17,10 @@ export default defineConfig({
         text: "GitHub",
         link: "https://github.com/Shin-sibainu/cc-company",
       },
+      {
+        text: "Claude Code Academy",
+        link: "https://claude-code-academy.dev/",
+      },
     ],
 
     sidebar: {
@@ -43,6 +47,12 @@ export default defineConfig({
             { text: "活用事例", link: "/guide/use-cases" },
           ],
         },
+        {
+          text: "リンク",
+          items: [
+            { text: "Claude Code Academy", link: "/guide/claude-code-academy" },
+          ],
+        },
       ],
       "/reference/": [
         {
@@ -50,6 +60,12 @@ export default defineConfig({
           items: [
             { text: "部署一覧", link: "/reference/departments" },
             { text: "ファイル構成", link: "/reference/file-structure" },
+          ],
+        },
+        {
+          text: "リンク",
+          items: [
+            { text: "Claude Code Academy", link: "/guide/claude-code-academy" },
           ],
         },
       ],
@@ -60,7 +76,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "MIT License",
+      message: 'MIT License | <a href="https://claude-code-academy.dev/" target="_blank">Claude Code Academy</a>',
       copyright: "© 2026 Shin-sibainu",
     },
 
